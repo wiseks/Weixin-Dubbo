@@ -2,13 +2,23 @@
 <application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://www.zeroturnaround.com/alderaan/rebel-2_0.xsd">
 
 	<classpath>
-		<dir name="D:/Works/idea/Weixin0.1/weixin-web/target/classes">
+		<dir name="D:/github_new/Weixin-Dubbo/weixin-web-manage/target/classes">
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/ehcache/ehcache.xml"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/globalconf.properties"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/log4j.properties"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/rebel.xml"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/spring/applicationContext.xml"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/spring/spring-dubbo-consumer.xml"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/spring/spring-mvc.xml"/>
+			<include name="D:\github_new\Weixin-Dubbo\weixin-web-manage\target/classes/spring/spring-shrio.xml"/>
+		</dir>
+		<dir name="D:/github_new/Weixin-Dubbo/weixin-web-manage/target/classes">
 		</dir>
 	</classpath>
 
 	<web>
 		<link target="/">
-			<dir name="D:/Works/idea/Weixin0.1/weixin-web/src/main/webapp">
+			<dir name="D:/github_new/Weixin-Dubbo/weixin-web-manage/src/main/webapp">
 			</dir>
 		</link>
 	</web>
